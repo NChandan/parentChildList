@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularlist';
+  lst:any = [
+    "JavaScript", "C++", "Java", "Python", "Ruby", "TypeScript", "HTML"
+  ]
+
+  onSubmit(event:any) {
+    console.log("Entering", event);
+  }
 }

@@ -1,0 +1,16 @@
+<!-- <app-backdrop *ngIf="isModal" (click)="isModal= !isModal">
+    <ul>
+        <li *ngFor="let language of selectedListValues">
+            {{language}}
+        </li>
+    </ul>
+</app-backdrop> -->
+<div class="wrapper">
+    <ul>
+        <li [ngClass]="{'selected': checkSelectedList(language)}" (click)="selectedList(language)"
+            *ngFor="let language of lang_list">
+            {{language}}
+        </li>
+    </ul>
+    <button (click)="submit()">Submit</button>
+</div>

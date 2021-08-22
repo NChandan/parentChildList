@@ -1,0 +1,33 @@
+.wrapper {
+    position: relative;
+    z-index: 50;
+}
+
+ul {
+    box-sizing: border-box;
+    background-color: #0096C7;
+    width: 200px;
+    height: 250px;
+    overflow: auto;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 10px 5px;
+    color: white;
+    border: 1px solid black;
+}
+
+li:hover {
+    background-color: #90E0EF;
+}
+
+.selected {
+    background-color: #90E0EF;
+    font-weight: bold;
+    border: 1px solid white;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: grey;
+    z-index: 501;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.ng-wrapper {
+    width: 200px;
+    height: 300px;
+    z-index: 750;
+    align-content: center;
+    text-align: center;
+    background-color: honeydew;
+    position: absolute;
+}

@@ -1,3 +1,8 @@
+# Details
+
+Added Parent Child components
+list selection
+
 # Explanation
 
 This project is to select the list of items in the list which passes from parent by selecting the value from child the triggering that by the parent from child
